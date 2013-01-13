@@ -1,6 +1,6 @@
 # Mannequin
 
-TODO: Write a gem description
+Mannequin is a simple test data generator. It was initially designed to abstract code from progLipsum (http://proglipsum.com) for use in other projects.
 
 ## Installation
 
@@ -18,7 +18,25 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Mannequin can be used to generate many different types of data. However, the basic format is the same for all data types. For example, to generate a new person:
+
+    @person = Mannequin::Person.new
+
+You can then utilize the attributes of that person:
+
+    @person.first_name
+    => "Andy"
+    
+    @person.last_name
+    => "Macdonald"
+
+Currently the following test data classes and attributes have been implemented:
+
+* Mannequin::Person
+    
+    * first_name
+    * last_name
+    * middle_name
 
 ## Contributing
 

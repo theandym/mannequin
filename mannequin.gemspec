@@ -8,8 +8,8 @@ Gem::Specification.new do |gem|
   gem.version       = Mannequin::VERSION
   gem.authors       = ["Andy Macdonald"]
   gem.email         = ["andy@theandym.com"]
-  gem.description   = %q{Test data generator}
-  gem.summary       = %q{Test data generator}
+  gem.description   = "A simple test data generator"
+  gem.summary       = "A simple test data generator"
   gem.homepage      = "http://github.com/theandym/mannequin"
 
   gem.files         = `git ls-files`.split($/)
