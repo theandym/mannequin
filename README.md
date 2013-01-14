@@ -1,5 +1,8 @@
 # Mannequin
 
+[![Build Status](https://travis-ci.org/theandym/mannequin.png?branch=master)](https://travis-ci.org/theandym/mannequin)
+[![Gem Version](https://badge.fury.io/rb/mannequin.png)](http://badge.fury.io/rb/mannequin)
+
 Mannequin is a simple test data generator. It was initially designed to abstract code from progLipsum (http://proglipsum.com) for use in other projects.
 
 ## Installation
