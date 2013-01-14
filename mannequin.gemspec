@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ["lib"]
 
-  gem.add_dependency("rake")
-  gem.add_dependency("minitest")
-  gem.add_dependency("backports")
+  gem.add_dependency("rake", ">= 10.0.3")
+  gem.add_dependency("minitest", ">= 4.4.0")
+  gem.add_dependency("backports", ">= 2.6.5")
 end
