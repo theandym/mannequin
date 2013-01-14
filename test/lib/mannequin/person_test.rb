@@ -1,4 +1,6 @@
-require_relative '../../test_helper'
+require 'pathname'
+require Pathname(__FILE__).ascend{|d| h=d+'test_helper.rb'; break h if h.file?}
+
 describe Mannequin::Person.new do
   subject { Mannequin::Person.new }
   describe "creating a person" do
