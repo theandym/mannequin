@@ -15,5 +15,13 @@ describe Mannequin::Person.new do
     it "must have a middle name" do
       subject.must_respond_to(:middle_name)
     end
+    
+    it "must have a middle initial" do
+      subject.must_respond_to(:middle_initial)
+    end
+    
+    it "must have an email address" do
+      subject.must_respond_to(:email_address)
+    end
   end
 end
