@@ -1,3 +1,5 @@
+require "backports"
+
 require "mannequin/version"
 require "mannequin/person"
 
