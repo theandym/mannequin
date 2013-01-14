@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.version       = Mannequin::VERSION
   gem.authors       = ["Andy Macdonald"]
   gem.email         = ["andy@theandym.com"]
-  gem.description   = "A simple test data generator"
+  gem.description   = "Mannequin is a simple test data generator. It was initially designed to abstract code from progLipsum (http://proglipsum.com) for use in other projects."
   gem.summary       = "A simple test data generator"
   gem.homepage      = "http://github.com/theandym/mannequin"
 
