@@ -12,7 +12,6 @@ module Mannequin
       state = generated_state
       country = generated_country
       
-      
       # Initialize attributes
       @street_address = street_address
       @street_number = street_number

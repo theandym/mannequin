@@ -3,11 +3,19 @@ module Mannequin
     attr_reader :first_name, :middle_name, :middle_initial, :last_name, :email_address
     
     def initialize
-      @first_name = generated_first_name
-      @middle_name = generated_middle_name
-      @middle_initial = @middle_name[0,1]
-      @last_name = generated_last_name
-      @email_address = "#{@first_name.downcase}@#{@last_name.downcase}.#{['com', 'net', 'org'].sample}"
+      # Set variables from functions
+      first_name = generated_first_name
+      middle_name = generated_middle_name
+      middle_initial = middle_name[0,1]
+      last_name = generated_last_name
+      email_address = "#{first_name.downcase}@#{last_name.downcase}.#{['com', 'net', 'org'].sample}"
+      
+      # Initialize attributes
+      @first_name = first_name
+      @middle_name = middle_name
+      @middle_initial = middle_initial
+      @last_name = last_name
+      @email_address = email_address
     end
     
     private
