@@ -28,10 +28,10 @@ Mannequin can be used to generate many different types of data. However, the bas
 You can then utilize the attributes of that person:
 
     @person.first_name
-    => "Andy"
+    => "John"
     
     @person.last_name
-    => "Macdonald"
+    => "Doe"
 
 Currently the following test data classes and attributes have been implemented:
 
