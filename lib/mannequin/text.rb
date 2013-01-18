@@ -1,6 +1,6 @@
 module Mannequin
   class Text
-    attr_reader :lipsum_paragraph_1, :lipsum_paragraph_2, :lipsum_paragraph_3, :lipsum_paragraph_4, :lipsum_paragraph_5
+    attr_reader :lipsum_paragraph_1, :lipsum_paragraph_2, :lipsum_paragraph_3, :lipsum_paragraph_4, :lipsum_paragraph_5, :lipsum_multi_paragraph
     
     def initialize
       # Set variables from functions
@@ -9,6 +9,7 @@ module Mannequin
       lipsum_paragraph_3 = 'Nam eleifend, mauris in rhoncus pulvinar, dolor ante commodo neque, a dictum massa urna congue justo. Nullam condimentum enim a felis accumsan molestie. Aenean eu est ut leo volutpat hendrerit vitae a elit. Nam in magna est. Nulla ac consequat nisi. Praesent vel lorem est. Nullam at velit vel libero cursus tincidunt. Etiam at massa et sapien pharetra volutpat.'
       lipsum_paragraph_4 = 'Pellentesque sollicitudin pretium tortor, sit amet ultricies libero cursus in. Praesent sit amet justo arcu. Nulla faucibus aliquet ipsum sit amet porttitor. Morbi libero turpis, convallis vel viverra vel, tincidunt vitae nisl. Vestibulum ut venenatis turpis. Curabitur laoreet, nunc convallis congue laoreet, purus turpis ornare neque, at consequat tortor mauris vitae arcu. In hac habitasse platea dictumst. Morbi dapibus nibh ut purus venenatis sodales.'
       lipsum_paragraph_5 = 'Fusce neque orci, lobortis in elementum et, congue a massa. Nunc mi turpis, convallis sit amet fringilla in, hendrerit sed risus. Fusce nibh est, aliquam sed egestas at, feugiat at massa. Donec gravida mollis felis at tincidunt. Nunc semper lacus orci, et pellentesque ipsum. Etiam convallis sodales placerat. Donec vitae lacinia sapien. Cras non ipsum dui, sit amet varius mi. Maecenas blandit risus ut lacus auctor faucibus. Phasellus nec nunc eu odio tristique fermentum. Nunc luctus, lorem eu vulputate aliquet, diam ante dignissim turpis, vitae congue nibh turpis vel eros. Vestibulum lobortis metus ut leo tincidunt at commodo elit gravida.'
+      lipsum_multi_paragraph = lipsum_paragraph_1 + "\n\n" + lipsum_paragraph_2 + "\n\n" + lipsum_paragraph_3 + "\n\n" + lipsum_paragraph_4 + "\n\n" + lipsum_paragraph_5
       
       # Initialize attributes
       @lipsum_paragraph_1 = lipsum_paragraph_1

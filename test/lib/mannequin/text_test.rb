@@ -11,5 +11,11 @@ describe Mannequin::Text.new do
       subject.must_respond_to(:lipsum_paragraph_4)
       subject.must_respond_to(:lipsum_paragraph_5)
     end
+    it "must have a multiple paragraph lorem ipsum" do
+      subject.must_respond_to(:lipsum_multi_paragraph)
+    end
+    it "multiple paragraph lorem ipsum must not be nil" do
+      subject.wont_be_nil(:lipsum_multi_paragraph)
+    end
   end
 end
