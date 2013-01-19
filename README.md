@@ -54,6 +54,14 @@ Currently the following test data classes and attributes have been implemented:
     * `state_code` *(ex. NY)*
     * `country` *(ex. United States)*
 
+* `Mannequin::Text`
+    
+    * `lipsum_paragraphs_1` *("Lorem ipsum dolor sit amet..." - 1 paragraph)*
+    * `lipsum_paragraphs_2` *("Cras ac dolor sit amet..." - 2 paragraphs)*
+    * `lipsum_paragraphs_3` *("Nam eleifend, mauris in rhoncus..." - 3 paragraphs)*
+    * `lipsum_paragraphs_4` *("Pellentesque sollicitudin pretium tortor, sit..." - 4 paragraphs)*
+    * `lipsum_paragraphs_5` *("Fusce neque orci, lobortis in..." - 5 paragraphs)*
+
 ## Contributing
 
 1. Fork it
