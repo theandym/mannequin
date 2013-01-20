@@ -56,11 +56,23 @@ Currently the following test data classes and attributes have been implemented:
 
 * `Mannequin::Text`
     
-    * `lipsum_paragraphs_1` *("Lorem ipsum dolor sit amet..." - 1 paragraph)*
-    * `lipsum_paragraphs_2` *("Cras ac dolor sit amet..." - 2 paragraphs)*
-    * `lipsum_paragraphs_3` *("Nam eleifend, mauris in rhoncus..." - 3 paragraphs)*
-    * `lipsum_paragraphs_4` *("Pellentesque sollicitudin pretium tortor, sit..." - 4 paragraphs)*
-    * `lipsum_paragraphs_5` *("Fusce neque orci, lobortis in..." - 5 paragraphs)*
+    * `lipsum_paragraphs_1` *(ex. "Lorem ipsum dolor sit amet..." - 1 paragraph)*
+    * `lipsum_paragraphs_2` *(ex. "Cras ac dolor sit amet..." - 2 paragraphs)*
+    * `lipsum_paragraphs_3` *(ex. "Nam eleifend, mauris in rhoncus..." - 3 paragraphs)*
+    * `lipsum_paragraphs_4` *(ex. "Pellentesque sollicitudin pretium tortor, sit..." - 4 paragraphs)*
+    * `lipsum_paragraphs_5` *(ex. "Fusce neque orci, lobortis in..." - 5 paragraphs)*
+
+* `Mannequin::Number`
+    
+    * `digits_1` *(random number 1 - 9)*
+    * `digits_2` *(random number 10 - 99)*
+    * `digits_3` *(random number 100 - 999)*
+    * `digits_4` *(random number 1000 - 9999)*
+    * `digits_5` *(random number 10000 - 99999)*
+    * `digits_6` *(random number 100000 - 999999)*
+    * `digits_7` *(random number 1000000 - 9999999)*
+    * `digits_8` *(random number 10000000 - 99999999)*
+    * `digits_9` *(random number 100000000 - 999999999)*
 
 ## Contributing
 

@@ -19,5 +19,5 @@ Gem::Specification.new do |gem|
 
   gem.add_dependency("rake", ">= 10.0.3")
   gem.add_dependency("minitest", ">= 4.4.0")
-  gem.add_dependency("backports", ">= 2.6.5")
+  gem.add_dependency("backports", ">= 2.7.0")
 end
